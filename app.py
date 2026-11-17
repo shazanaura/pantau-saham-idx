@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 st.title("Pantauan Saham Keluarga (IDX)")
 
 # Pilihan kode saham IDX (wajib pakai akhiran .JK)
-kode_saham = st.selectbox("Pilih Saham:", ["BBCA.JK", "BBRI.JK", "BMRI.JK", "TLKM.JK", "ASII.JK"])
+kode_saham = st.selectbox("Pilih Saham:", ["ADRO.JK", "BBRI.JK", "BMRI.JK", "TLKM.JK", "ASII.JK"])
 periode = st.selectbox("Rentang Waktu:", ["1mo", "3mo", "6mo", "1y"])
 
 # Mengambil data dari Yahoo Finance
